@@ -8,9 +8,9 @@ body {
   background-color: #eeee;
 }
 
-/* header kısmı */
+/* nav kısmı */
 
-header {
+nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -22,15 +22,15 @@ header {
   cursor: default;
   top: 0;
 }
-header h1 {
+nav h1 {
   font-size: 25px;
 }
-header a {
+nav a {
   margin-left: 5px;
   color: #eeee;
   padding: 7px;
 }
-header a:hover {
+nav a:hover {
   border: #00adb5 2px solid;
   border-radius: 10px;
   padding: 5px;
